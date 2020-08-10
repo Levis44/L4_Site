@@ -1,10 +1,3 @@
-
-
-/*
-Author: Bootstrap Themes
-Author URI: http://bootstrapthemes.co
-*/
-
 /*==========================================
  01.  PREDIFINEED (FROM 1 TO 780 )
  02.  PRELOADER - LINE NO 786
@@ -107,7 +100,7 @@ section { overflow: hidden; }
 .text-white{color:#fff !important;;}
 .text-black{color:#16293b !important;}
 .text-yellow{
-    color:#fddc57;
+    color:#56abfa;
 }
 
 .disabled{
@@ -894,13 +887,14 @@ Home Section style
 ==================*/
 
 .home{
-    background: url(../images/home-bg.jpg) no-repeat top center;
+    background: url(../images/home-bg.png) no-repeat top center;
     background-size: cover;
     position: relative;
     padding-top: 300px;
     padding-bottom: 320px;
     width:100%;
 }
+
 .home_text h1{
     font-size:100px;
     font-family: 'Kaushan Script', cursive;
@@ -911,6 +905,11 @@ Home Section style
     font-size:24px;
     font-family: 'Montserrat', sans-serif;
 
+}
+
+.hr-home {
+    margin-top: 35px;
+    width: 80px;
 }
 
 
