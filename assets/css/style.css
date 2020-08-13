@@ -1508,3 +1508,25 @@ tems Section style
     padding: 0px 5px;
     color: #ff0000;
 }
+
+.col-md-6 {
+    float: left;
+}
+
+
+#team-group {
+    margin: 0 auto;
+    display: flex;  
+}
+
+.main-group {
+    display: flex;
+}
+
+#team-item {
+    display: block;
+}
+
+#footer-page.col-md-3 {
+    
+}
