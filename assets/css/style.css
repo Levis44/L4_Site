@@ -1110,10 +1110,18 @@ Featured section style
     border-radius: 4px 4px 0px 0px;
 }
 
+@media (min-width: 320px) {
+    .service_slid .service_slid_item{
+        background-color: #fff;
+        padding: 10px 10px;
+    }
+}
+
 .service_slid .service_slid_item{
     background-color: #fff;
-    padding: 70px 30px;
+    padding: 50px 30px;
 }
+
 
 .service_slid .service_slid_text span.icon{
     font-size:8rem;
