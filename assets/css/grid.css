@@ -1,0 +1,12 @@
+#imagem {
+    float: right;
+    margin-top: -280px;
+    width: 300px;
+}
+
+
+@media (max-width: 1000px) {
+    #imagem {
+        display: none;
+    }
+}
