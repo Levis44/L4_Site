@@ -1539,3 +1539,54 @@ tems Section style
 #footer-page.col-md-3 {
     
 }
+
+.galeria{
+	width: 500px;
+	height: 450px;
+    position: absolute;
+    right: 80px;
+	overflow: hidden;
+}
+
+.foto{
+    position: absolute;
+    width: 500px;
+	height: 300px;
+	opacity: 0;
+	animation-name: animacao;
+	animation-duration: 15s;
+	animation-iteration-count: infinite;
+}
+
+.foto:nth-child(2){
+	animation-delay: 5s;
+}
+
+.foto:nth-child(3){
+	animation-delay: 10s;
+}
+
+
+@keyframes animacao{
+
+	25%{
+		opacity: 1;
+	}
+
+	50%{
+		opacity: 0;
+	}
+}
+
+@media (max-width: 800px) {
+	.galeria {
+		width:330px;
+		height:200px;
+	}
+
+	.foto {
+		width:330px;
+		height:190px;
+	}
+
+}
